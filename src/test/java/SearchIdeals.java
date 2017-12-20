@@ -23,7 +23,7 @@ public class SearchIdeals extends AbstractTest {
         Assert.assertEquals("#70a429", homePage.getTextColor(homePage.logInButton));
         Assert.assertEquals("#ffffff", homePage.getTextColor(homePage.signUpButton));
         Assert.assertEquals("#70a429", homePage.getBackGroundColor(homePage.signUpButton));
-        Assert.assertEquals("iDeals™ Virtual Data Rooms | Secure Data Room Provider",homePage.getTitle());
+        Assert.assertTrue(homePage.getTitle().contains("Virtual Data Rooms | Secure Data Room Provider"));
 
     }
 }

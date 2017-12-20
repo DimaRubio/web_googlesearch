@@ -33,7 +33,7 @@ public class WebDriverUtils {
     }
 
     private static WebDriver createChromeDriver() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "D:\\Test_dir\\web_googlesearch\\src\\main\\resources\\chromedriver.exe");
         return new ChromeDriver();
     }
 
